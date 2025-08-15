@@ -1,0 +1,42 @@
+/* Full page wrapper to center everything vertically and horizontally */
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* almost full viewport height */
+  background-color: black; /* optional if your site background is black */
+  padding: 20px;
+}
+
+/* Container for image + text side by side */
+.about-container {
+  display: flex;
+  flex-direction: row; /* side by side */
+  align-items: center; /* vertically center image and text */
+  gap: 40px; /* space between image and text */
+  max-width: 900px;
+}
+
+/* Image styling */
+.profile {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%; /* circular image */
+  border: 2px solid white;
+}
+
+/* Text container */
+.about-text-container {
+  color: white; /* white text */
+}
+
+.about-text-container h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.about-text-container p {
+  font-size: 1rem;
+  line-height: 1.5;
+}

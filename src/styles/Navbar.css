@@ -1,0 +1,4 @@
+nav a {
+  margin: 0 15px;  /* Adds 15px space left and right of each link */
+  /* or use padding if you want internal space */
+}

@@ -1,0 +1,30 @@
+/* Shows.css */
+.shows-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* space between cards */
+  justify-content: center;
+}
+
+.show-card {
+  background-color: linear-gradient(to right, #FFA500, #FFFFFF);
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+}
+
+.show-title {
+  margin-bottom: 12px; /* space after title */
+  font-size: 1.5rem;
+}
+
+.show-description {
+  font-style: italic; /* make description italic */
+  margin-bottom: 16px; /* space after description */
+}
+
+.show-info {
+  margin-bottom: 12px; /* space between schedule/channel sections */
+}
