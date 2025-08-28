@@ -20,7 +20,7 @@ export default function Blog() {
       .then((res) => res.json())
       .then((data) => {
         console.log("Post created:", data);
-        navigate("/"); // redirect back to blog home
+        navigate("/NewPost"); // redirect back to blog home
       })
       .catch((err) => console.error(err));
   }
